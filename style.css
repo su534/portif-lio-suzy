@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --cor-principal: #5a005f;
+    --cor-secundaria: #510b4c;
+    --cor-destaque: #ffffff;
+}
+
+body {
+    font-family: "Półtawski Nowy";
+    font-weight: 500;
+    font-size: 23px;
+    font-style: normal;
+    color: #510b4c;
+    background-color: rgb(177, 85, 186);
+}
+
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    font-size: 23;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+.borda-personalizada {
+    border: 5px solid #810579;
+    border-radius: 60px;
+}
+
+rounded-circle borda-personalizada {
+    border: 6px solid #810579;
+}
+
+.card-texto-escuro {
+    background-color: rgb(186, 59, 198);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border: 5px solid #810579;
+    border-radius: 60px;
+    box-shadow: none;
+    font-size: 21.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.card-body {
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    
+}
+
+.modal-body {
+    background-color: #810579;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+    font-weight: 100;
+}
+
+.modal-header {
+    background-color: #810579;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.modal-content {
+    background-color: #810579;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.modal-title {
+    background-color: #810579;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.fundo-personalizado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(um-fundo-branco-e-branco-com-uma-textura-branca-que-diz-a-cor_737761-2504.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.modal-title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.titulo-loja {
+    margin-top: 80px;
+}
+
+.img-borda-personalizada {
+    border: 6px solid #810579;
+}
